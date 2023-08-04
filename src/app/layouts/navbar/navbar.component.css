@@ -1,0 +1,38 @@
+.navbar_container {
+    width: 20vw;
+    height: 100vh;
+    background-color: #C0F3FF;
+    margin: 0;
+}
+
+.button {
+    background-color: #A08DFF;
+    color: white;
+    width: 100%;
+    margin-top: 15px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10;
+}
+
+.container {
+    width: 50%;
+}
+
+.button:hover {
+    background-color: white;
+    color: #A08DFF;
+}
+
+.menu {
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+/* .p-button-success{
+    background-color: white;
+    color: #A08DFF;
+} */
