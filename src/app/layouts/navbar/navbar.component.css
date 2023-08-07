@@ -1,8 +1,11 @@
 .navbar_container {
-    width: 20vw;
+    width: 15vw;
     height: 100vh;
     background-color: #C0F3FF;
     margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .button {
@@ -13,10 +16,11 @@
     font-weight: bold;
     text-align: center;
     padding: 10;
+    border-radius: 20px;
 }
 
 .container {
-    width: 50%;
+    width: 80%;
 }
 
 .button:hover {
@@ -25,14 +29,34 @@
 }
 
 .menu {
-    height: 70%;
+    height: 80vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: nowrap;
     align-items: center;
 }
-/* .p-button-success{
-    background-color: white;
-    color: #A08DFF;
-} */
+
+.container.logout{
+    margin-top: auto;
+    margin-bottom: 30px;
+}
+
+.container.days_off{
+    margin-top: 0px;
+}
+
+.user_section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    height: 20vh;
+}
+
+.user_info{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
